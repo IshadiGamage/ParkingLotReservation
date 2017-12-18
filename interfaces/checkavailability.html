@@ -39,7 +39,6 @@
 </div>
 
 <!-- Navigation section  -->
-
 <div class="navbar navbar-default navbar-static-top" role="navigation">
     <div class="container">
 
@@ -52,21 +51,31 @@
             <i class="fa fa-car fa-3x" aria-hidden="true"></i>
             <a href="index.html" class="navbar-brand">Easy Parking</a>
         </div>
-    </div>
-    <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="parkingzonedetails.html">Parking Zone Details</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li class="active"><a href="checkavailability.html">Reservation</a> </li>
-            <li><a href="login.html">Login</a></li>
-            <li class=><a href="signup.html">Sign Up</a></li>
-        </ul>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="parkingzonedetails.html">Parking Zone Details</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="active"><a href="checkavailability.html">Check Availability</a></li>
+                <li><a href="reservation.html">Reservation</a> </li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="test.html">test</a> </li>
+            </ul>
+            <div align="right">
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
     </div>
 
 </div>
 </div>
+
+
 
 <!-- Home Section -->
 
@@ -99,28 +108,28 @@
                         <div class="col-md-6">
 
                             <div class="form-group">
-
-                                <input type="text" name="startDate" class="form-control" ng-model="registration.id"  placeholder="Start Date" required/>
+                                <label>Start Time</label>
+                                <input type="date" name="startDate" class="form-control" ng-model="registration.id"  placeholder="Start Date" required/>
 
                             </div>
 
 
 
                             <div class="form-group">
-
-                                <input type="text" name="startTime" class="form-control" ng-model="registration.id" placeholder="Start Time" required/>
-
-                            </div>
-
-                            <div class="form-group">
-
-                                <input type="text" name="endDate" class="form-control" ng-model="registration.id" placeholder="End Date" required/>
+                                <label>Start Time</label>
+                                <input type="time" name="startTime" class="form-control" ng-model="registration.id" placeholder="Start Time" required/>
 
                             </div>
 
                             <div class="form-group">
+                                <label>End Date</label>
+                                <input type="date" name="endDate" class="form-control" ng-model="registration.id" placeholder="End Date" required/>
 
-                                <input type="text" name="endTime" class="form-control" ng-model="registration.id" placeholder="End Time" required/>
+                            </div>
+
+                            <div class="form-group">
+                                <label>End Time</label>
+                                <input type="time" name="endTime" class="form-control" ng-model="registration.id" placeholder="End Time" required/>
 
                             </div>
 
