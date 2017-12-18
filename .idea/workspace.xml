@@ -2,56 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6657f44-c47f-4e0a-84a6-19a9e59b71a5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/log1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/images/about-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/images/about-image1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/images/about-image3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/images/blog-image1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/images/blog-image2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/images/comment-image2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/images/contact-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/images/gallery-image3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/images/gallery-image5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/images/image-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/images/image.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/images/log1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/images/parking-lot1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/images/parking-lot2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/images/parking-lot3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/css/magnific-popup.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/js/custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/js/jquery.magnific-popup.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/js/jquery.parallax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/js/magnific-popup-options.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/js/particles.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/js/smoothscroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/about.html" afterPath="$PROJECT_DIR$/public/about.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/checkavailability.html" afterPath="$PROJECT_DIR$/public/checkavailability.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/contact.html" afterPath="$PROJECT_DIR$/public/contact.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/public/css/font-awesome.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/css/magnific-popup.css" afterPath="$PROJECT_DIR$/public/css/magnific-popup.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/public/fonts/FontAwesome.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/images/about-bg.jpg" afterPath="$PROJECT_DIR$/public/images/about-bg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/images/about-image1.jpg" afterPath="$PROJECT_DIR$/public/images/about-image1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/images/about-image3.jpg" afterPath="$PROJECT_DIR$/public/images/about-image3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/images/blog-image1.jpg" afterPath="$PROJECT_DIR$/public/images/blog-image1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/images/blog-image2.jpg" afterPath="$PROJECT_DIR$/public/images/blog-image2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/images/comment-image2.jpg" afterPath="$PROJECT_DIR$/public/images/comment-image2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/images/contact-bg.jpg" afterPath="$PROJECT_DIR$/public/images/contact-bg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/images/gallery-image3.jpg" afterPath="$PROJECT_DIR$/public/images/gallery-image3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/images/gallery-image5.jpg" afterPath="$PROJECT_DIR$/public/images/gallery-image5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/images/image-bg.jpg" afterPath="$PROJECT_DIR$/public/images/image-bg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/images/image.jpg" afterPath="$PROJECT_DIR$/public/images/image.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/images/log1.jpg" afterPath="$PROJECT_DIR$/public/images/log1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/images/parking-lot1.png" afterPath="$PROJECT_DIR$/public/images/parking-lot1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/images/parking-lot2.png" afterPath="$PROJECT_DIR$/public/images/parking-lot2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/images/parking-lot3.png" afterPath="$PROJECT_DIR$/public/images/parking-lot3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/js/custom.js" afterPath="$PROJECT_DIR$/public/js/custom.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/js/jquery.js" afterPath="$PROJECT_DIR$/public/js/jquery.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/js/jquery.magnific-popup.min.js" afterPath="$PROJECT_DIR$/public/js/jquery.magnific-popup.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/js/jquery.parallax.js" afterPath="$PROJECT_DIR$/public/js/jquery.parallax.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/js/magnific-popup-options.js" afterPath="$PROJECT_DIR$/public/js/magnific-popup-options.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/js/particles.min.js" afterPath="$PROJECT_DIR$/public/js/particles.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/js/smoothscroll.js" afterPath="$PROJECT_DIR$/public/js/smoothscroll.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/login.html" afterPath="$PROJECT_DIR$/public/login.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/parkingzonedetails.html" afterPath="$PROJECT_DIR$/public/parkingzonedetails.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/reservation.html" afterPath="$PROJECT_DIR$/public/reservation.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaces/signup.html" afterPath="$PROJECT_DIR$/public/signup.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/css/font-awesome.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interfaces/about.html" afterPath="$PROJECT_DIR$/interfaces/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interfaces/checkavailability.html" afterPath="$PROJECT_DIR$/interfaces/checkavailability.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interfaces/contact.html" afterPath="$PROJECT_DIR$/interfaces/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interfaces/index.html" afterPath="$PROJECT_DIR$/interfaces/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interfaces/login.html" afterPath="$PROJECT_DIR$/interfaces/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interfaces/parkingzonedetails.html" afterPath="$PROJECT_DIR$/interfaces/parkingzonedetails.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interfaces/reservation.html" afterPath="$PROJECT_DIR$/interfaces/reservation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interfaces/signup.html" afterPath="$PROJECT_DIR$/interfaces/signup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/package.json" afterPath="$PROJECT_DIR$/node_modules/express/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gallery.html" afterPath="$PROJECT_DIR$/gallery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/single-post.html" afterPath="$PROJECT_DIR$/single-post.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -70,7 +65,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interfaces/about.html">
+        <entry file="file://$PROJECT_DIR$/public/about.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="548">
               <caret line="64" column="49" lean-forward="false" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="49" />
@@ -79,18 +74,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interfaces/index.html">
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="20" column="10" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="10" />
+            <state relative-caret-position="255">
+              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checkavailability.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/checkavailability.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interfaces/js/app.js">
+        <entry file="file://$PROJECT_DIR$/public/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -99,21 +114,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/interfaces/css/style.css">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="204">
+              <caret line="78" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="parkingzonedetails.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interfaces/parkingzonedetails.html">
+      <file leaf-file-name="reservation.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/reservation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="55" column="29" lean-forward="false" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+            <state relative-caret-position="145">
+              <caret line="66" column="12" lean-forward="true" selection-start-line="66" selection-start-column="12" selection-end-line="71" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signup.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/signup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="65" column="34" lean-forward="false" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -122,50 +157,8 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1774">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interfaces/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2890">
-              <caret line="203" column="7" lean-forward="false" selection-start-line="203" selection-start-column="7" selection-end-line="203" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3621">
-              <caret line="297" column="0" lean-forward="false" selection-start-line="297" selection-start-column="0" selection-end-line="299" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="single-post.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/single-post.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1969">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -215,6 +208,11 @@
         <option value="$PROJECT_DIR$/interfaces/parkingzonedetails.html" />
         <option value="$PROJECT_DIR$/interfaces/about.html" />
         <option value="$PROJECT_DIR$/interfaces/index.html" />
+        <option value="$PROJECT_DIR$/public/reservation.html" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/contact.html" />
+        <option value="$PROJECT_DIR$/public/checkavailability.html" />
+        <option value="$PROJECT_DIR$/public/signup.html" />
       </list>
     </option>
   </component>
@@ -227,7 +225,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="8" />
     <option name="y" value="3" />
     <option name="width" value="1346" />
@@ -260,7 +258,7 @@
             <path>
               <item name="ParkingLotReservation" type="b2602c69:ProjectViewProjectNode" />
               <item name="ParkingLotReservation" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -375,23 +373,24 @@
       <updated>1513492148873</updated>
       <workItem from="1513492152570" duration="447000" />
       <workItem from="1513492725371" duration="31068000" />
-      <workItem from="1513582429662" duration="6361000" />
+      <workItem from="1513582429662" duration="7044000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37876000" />
+    <option name="totallyTimeSpent" value="38559000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25372022" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8675079" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -399,7 +398,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15615141" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -555,38 +553,6 @@
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.js" />
-    <entry file="file://$PROJECT_DIR$/interfaces/reservation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="162" column="51" lean-forward="false" selection-start-line="162" selection-start-column="51" selection-end-line="162" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interfaces/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="121" column="27" lean-forward="false" selection-start-line="121" selection-start-column="27" selection-end-line="121" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interfaces/checkavailability.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1496">
-          <caret line="92" column="10" lean-forward="false" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interfaces/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1989">
-          <caret line="117" column="109" lean-forward="false" selection-start-line="117" selection-start-column="108" selection-end-line="117" selection-end-column="109" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/single-post.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1969">
@@ -595,18 +561,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interfaces/parkingzonedetails.html">
+    <entry file="file://$PROJECT_DIR$/public/parkingzonedetails.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
           <caret line="55" column="29" lean-forward="false" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interfaces/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2890">
-          <caret line="203" column="7" lean-forward="false" selection-start-line="203" selection-start-column="7" selection-end-line="203" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -637,15 +595,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interfaces/about.html">
+    <entry file="file://$PROJECT_DIR$/public/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="548">
           <caret line="64" column="49" lean-forward="false" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="49" />
@@ -653,15 +603,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interfaces/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="20" column="10" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interfaces/js/app.js">
+    <entry file="file://$PROJECT_DIR$/public/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -669,10 +611,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interfaces/css/style.css">
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="204">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/checkavailability.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/reservation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="66" column="12" lean-forward="true" selection-start-line="66" selection-start-column="12" selection-end-line="71" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="78" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="65" column="34" lean-forward="false" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
           <folding />
         </state>
       </provider>
