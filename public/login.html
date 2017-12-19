@@ -61,7 +61,7 @@
                 <li><a href="parkingzonedetails.html">Parking Zone Details</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="checkavailability.html">Check Availability</a></li>
-                <li><a href="reservation.html">Reservation</a> </li>
+                <li><a href="javascript:void(0)" class="disabled">Reservation</a> </li>
                 <li class="active"><a href="login.html">Login</a></li>
                 <li><a href="signup.html">Sign Up</a></li>
             </ul>
@@ -130,7 +130,7 @@
                             <br>
 
                                 <div class="form-group">
-                                    <button name="login" type="button" class="btn btn-primary btn-lg">Login</button>
+                                    <button name="login" type="button" onclick="check(this.form)" class="btn btn-primary btn-lg">Login</button>
                                 </div>
 
                         </div>
@@ -145,6 +145,20 @@
                     </div>
 
                 </form>
+                <script language="javascript">
+                    function check(form)/*function to check userid & password*/
+                    {
+                        /*the following code checkes whether the entered userid and password are matching*/
+                        if(form.email.value == "abc@gmail.com" && form.password.value == "123456")
+                        {
+                            window.open('reservation.html')/*opens the target page while Id & password matches*/
+                        }
+                        else
+                        {
+                            alert("Error Password or Username")/*displays error message*/
+                        }
+                    }
+                </script>
             </div>
 
         </div>

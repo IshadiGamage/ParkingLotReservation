@@ -24,6 +24,12 @@
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lora|Merriweather:300,400" rel="stylesheet">
 
+
+  <script>
+      function openWindow() {
+          window.open('login.html');
+      }
+  </script>
 </head>
 <body>
 
@@ -58,7 +64,7 @@
                 <li class="active"><a href="parkingzonedetails.html">Parking Zone Details</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="checkavailability.html">Check Availability</a></li>
-                <li><a href="reservation.html">Reservation</a> </li>
+                <li><a href="javascript:void(0)" >Reservation</a> </li>
                 <li><a href="login.html">Login</a></li>
                 <li><a href="signup.html">Sign Up</a></li>
             </ul>
@@ -102,7 +108,7 @@
                     Available:120/120</p>
                 <br>
                 <div class="form-group">
-                    <button name="reservation1" type="button" class="btn btn-success btn-lg">Make Reservation</button>
+                    <button name="reservation1" type="button" onclick="openWindow()" class="btn btn-success btn-lg">Make Reservation</button>
                 </div>
             </div>
 
@@ -114,7 +120,7 @@
                     Available:70/70</p>
                 <br>
                 <div class="form-group">
-                    <button name="reservation2" type="button" class="btn btn-success btn-lg">Make Reservation</button>
+                    <button name="reservation2" type="button" onclick="openWindow()" class="btn btn-success btn-lg">Make Reservation</button>
                 </div>
             </div>
 
@@ -126,7 +132,7 @@
                     Available:25/25</p>
                 <br>
                 <div class="form-group">
-                    <button name="reservation3" type="button" class="btn btn-success btn-lg">Make Reservation</button>
+                    <button name="reservation3" type="button" onclick="openWindow()" class="btn btn-success btn-lg">Make Reservation</button>
                 </div>
             </div>
         </div>
