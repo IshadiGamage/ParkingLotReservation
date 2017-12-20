@@ -23,7 +23,11 @@
     <!-- Main css -->
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lora|Merriweather:300,400" rel="stylesheet">
-
+    <script>
+        function clickAlert() {
+            alert("Your reservation is successfully made");
+        }
+    </script>
 </head>
 <body>
 
@@ -95,7 +99,7 @@
 
 <!-- Reservation Section -->
 
-<div align="right" style="padding-right: 60px">
+<div class="col-xs-6 col-md-4">
 
     <h6><b>Parking Lot One</b></h6>
     <table>
@@ -152,7 +156,7 @@
         </tr>
     </table>
 </div>
-<div align="right" style="padding-right: 60px">
+<div class="col-xs-6 col-md-4">
     <h6><b>Parking Lot Two</b></h6>
     <table>
         <tr>
@@ -207,7 +211,7 @@
 </div>
 
 <div class="row">
-    <div align="right" style="padding-right: 60px">
+    <div class="col-xs-6 col-md-4">
         <h6><b>Parking Lot Three</b></h6>
         <table >
             <tr>
@@ -247,18 +251,25 @@
 
         </table>
 <br>
-        <table>
 
-            <tr>
-                <td style="padding-right: 10px" bgcolor="#ff9980"></td>
-                <td>Reserved</td>
-            </tr>
+    </div>
+    <div class="row">
+        <div class="col-xs-6 col-md-4">
+            <table>
 
-            <tr>
-                <td style="padding-right: 10px" bgcolor="#d6d6c2"></td>
-                <td>Available</td>
-            </tr>
-        </table>
+                <tr>
+                    <td style="padding-right: 10px" bgcolor="#ff9980"></td>
+                    <td>Reserved</td>
+                </tr>
+
+                <tr>
+                    <td style="padding-right: 10px" bgcolor="#d6d6c2"></td>
+                    <td>Available</td>
+                </tr>
+            </table>
+        </div>
+
+
     </div>
 
     <section id="reservation">
@@ -358,7 +369,7 @@
                             <br>
 
                             <div class="form-group">
-                                <button name="check" type="button" class="btn btn-success btn-lg"> Make Reservation</button>
+                                <button name="check" type="button" onclick="clickAlert()" class="btn btn-success btn-lg"> Make Reservation</button>
                             </div>
 
                         </div>

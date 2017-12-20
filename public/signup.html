@@ -24,6 +24,11 @@
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lora|Merriweather:300,400" rel="stylesheet">
 
+    <script>
+        function clickAlert() {
+            alert("You have successfully signed up");
+        }
+    </script>
 </head>
 <body>
 
@@ -114,8 +119,6 @@
 
                             </div>
 
-
-
                             <div class="form-group">
 
                                 <input type="password" name="password" class="form-control" ng-model="registration.id" placeholder="Password" required/>
@@ -131,7 +134,7 @@
                             <br>
 
                             <div class="form-group">
-                                <button name="login" type="button" class="btn btn-primary btn-lg">Sign Up</button>
+                                <button name="login" type="button" onclick="clickAlert()" class="btn btn-primary btn-lg">Sign Up</button>
                             </div>
 
                         </div>

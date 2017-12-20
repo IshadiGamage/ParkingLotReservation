@@ -137,25 +137,25 @@
                         </div>
                     <br>
                     <div class="form-group">
-                     <span class="signup">Don't you have an account? <a href="#">Sign Up </a> for free</span>
+                        <span class="signup">Don't you have an account? <a href="signup.html"><font color="0000b3"><b>Sign Up</b> </font></a>for free</span>
                         <br>
                          <br>
-                        <span class="psw">Forgot <a href="#">password?</a></span>
+                        <span class="psw">Forgot <a href="#"><font color="0000b3"><b>password?</b></font></a></span>
 
                     </div>
 
                 </form>
                 <script language="javascript">
-                    function check(form)/*function to check userid & password*/
+                    function check(form)/*function to check user name and  password*/
                     {
-                        /*the following code checkes whether the entered userid and password are matching*/
-                        if(form.email.value == "abc@gmail.com" && form.password.value == "123456")
+
+                        if(form.email.value == "ishadi@gmail.com" && form.password.value == "password")
                         {
-                            window.open('reservation.html')/*opens the target page while Id & password matches*/
+                            window.open('reservation.html')
                         }
                         else
                         {
-                            alert("Error Password or Username")/*displays error message*/
+                            alert("Error Password or Username")
                         }
                     }
                 </script>

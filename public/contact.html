@@ -24,6 +24,11 @@ http://www.tooplate.com/view/2085-neuron
 <link rel="stylesheet" href="../css/style.css">
 <link href="https://fonts.googleapis.com/css?family=Lora|Merriweather:300,400" rel="stylesheet">
 
+     <script>
+         function clickAlert() {
+             alert("Your message is successfully sent");
+         }
+     </script>
 </head>
 <body>
 
@@ -116,7 +121,7 @@ http://www.tooplate.com/view/2085-neuron
                               <textarea name="message" rows="5" class="form-control" id="message" placeholder="Message"></textarea>
                          </div>
                          <div class="col-md-3 col-sm-6">
-                              <input name="submit" type="button" class="btn btn-primary btn-lg" id="submit" value="Submit">
+                              <input name="submit" type="button" onclick="clickAlert()"class="btn btn-primary btn-lg" id="submit" value="Submit">
                          </div>
 
                     </form>

@@ -24,6 +24,11 @@
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lora|Merriweather:300,400" rel="stylesheet">
 
+    <script>
+        function openWindow() {
+            window.open('reservation.html');
+        }
+    </script>
 </head>
 <body>
 
@@ -109,7 +114,7 @@
 
                             <div class="form-group">
                                 <label>Start Time</label>
-                                <input type="date" name="startDate" class="form-control" ng-model="registration.id"  placeholder="Start Date" required/>
+                                <input type="date" name="startDate" class="form-control"  placeholder="Start Date" required/>
 
                             </div>
 
@@ -117,26 +122,26 @@
 
                             <div class="form-group">
                                 <label>Start Time</label>
-                                <input type="time" name="startTime" class="form-control" ng-model="registration.id" placeholder="Start Time" required/>
+                                <input type="time" name="startTime" class="form-control" placeholder="Start Time" required/>
 
                             </div>
 
                             <div class="form-group">
                                 <label>End Date</label>
-                                <input type="date" name="endDate" class="form-control" ng-model="registration.id" placeholder="End Date" required/>
+                                <input type="date" name="endDate" class="form-control"  placeholder="End Date" required/>
 
                             </div>
 
                             <div class="form-group">
                                 <label>End Time</label>
-                                <input type="time" name="endTime" class="form-control" ng-model="registration.id" placeholder="End Time" required/>
+                                <input type="time" name="endTime" class="form-control"  placeholder="End Time" required/>
 
                             </div>
 
                             <br>
 
                             <div class="form-group">
-                                <button name="check" type="button" class="btn btn-primary btn-lg"> Check</button>
+                                <button name="check" type="button" onclick="openWindow()" class="btn btn-primary btn-lg"> Check</button>
                             </div>
 
                         </div>
